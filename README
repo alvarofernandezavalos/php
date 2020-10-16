@@ -1,18 +1,20 @@
+docker-compose up -d
+
 ADD USER
-http://35.180.120.108:8080/user/singup.php?username=asdf&password=asdf
+http://localhost:8080/user/singup.php?username=asdf&password=asdf
 INFO USER - NOT WORK
-http://35.180.120.108:8080/myaccount.php
+http://localhost:8080/myaccount.php
 LOGIN USER 
-http://35.180.120.108:8080/user/login.php?username=asdf&password=asdf
+http://localhost:8080/user/login.php?username=asdf&password=asdf
 INFO USER - WORK
-http://35.180.120.108:8080/myaccount.php
+http://localhost:8080/myaccount.php
 ADD ADMIN
-http://35.180.120.108:8080/admin/singup.php?username=alvaro&password=alvaro
+http://localhost:8080/admin/singup.php?username=alvaro&password=alvaro
 LOGIN ADMIN 
-http://35.180.120.108:8080/admin/login.php?username=alvaro&password=alvaro
+http://localhost:8080/admin/login.php?username=alvaro&password=alvaro
 INFO USER - WORK
-http://35.180.120.108:8080/myaccount.php
+http://localhost:8080/myaccount.php
 USER LIST
-http://35.180.120.108:8080/userlist.php
+http://localhost:8080/userlist.php
 LOGIN USER 
-http://35.180.120.108:8080/user/login.php?username=asdf&password=asdf
+http://localhost:8080/user/login.php?username=asdf&password=asdf
